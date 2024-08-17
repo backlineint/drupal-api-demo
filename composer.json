@@ -24,10 +24,12 @@
     },
     "require": {
         "composer/installers": "^2.0",
-        "drupal/api_client_jsonapi": "dev-main",
         "drupal/core-composer-scaffold": "^10.3",
         "drupal/core-project-message": "^10.3",
         "drupal/core-recommended": "^10.3",
+        "drupal/decoupled_router": "^2.0",
+        "drupal/jsonapi_extras": "^3.25",
+        "drupal/simple_oauth": "^5",
         "drush/drush": "^13.0",
         "ewcomposer/unpack": "dev-master"
     },

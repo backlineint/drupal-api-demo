@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f963782bb75a33b3a73c6b06e2c19b03",
+    "content-hash": "64d1b678746ce1dd81c091c3f6eebcf8",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -1207,28 +1207,6 @@
                 }
             ],
             "time": "2024-02-05T11:35:39+00:00"
-        },
-        {
-            "name": "drupal/api_client_jsonapi",
-            "version": "dev-main",
-            "dist": {
-                "type": "path",
-                "url": "web/recipes/api_client_jsonapi",
-                "reference": "8a3d6e1026f7742de2438e8d37ea503c28b544d1"
-            },
-            "require": {
-                "drupal/decoupled_router": "^2.0",
-                "drupal/jsonapi_extras": "^3.25",
-                "drupal/simple_oauth": "^5"
-            },
-            "type": "drupal-recipe",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "description": "Recipe for repeatable test setup for Drupal JSON:API client.",
-            "transport-options": {
-                "relative": true
-            }
         },
         {
             "name": "drupal/consumers",
