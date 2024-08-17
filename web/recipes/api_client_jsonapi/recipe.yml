@@ -1,0 +1,21 @@
+name: "API Client JSON:API"
+description: "Recipe for repeatable test setup for Drupal JSON:API client."
+type: "Site"
+
+install:
+  - jsonapi
+  - decoupled_router
+  - basic_auth
+  - jsonapi_extras
+  - simple_oauth
+# config:
+#   actions:
+#     # Set permissions for anonymous role.
+#     user.role.anonymous:
+#       ensure_exists:
+#         id: anonymous
+#       grantPermissions:
+#         - "view sanctuary_settings config page entity"
+#     system.theme:
+#       simple_config_update:
+#         default: "claro"
