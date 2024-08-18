@@ -5,14 +5,8 @@ type: "Site"
 install:
   - basic_auth
   - simple_oauth
-# config:
-#   actions:
-#     # Set permissions for anonymous role.
-#     user.role.anonymous:
-#       ensure_exists:
-#         id: anonymous
-#       grantPermissions:
-#         - "view sanctuary_settings config page entity"
-#     system.theme:
-#       simple_config_update:
-#         default: "claro"
+config:
+  actions:
+    system.performance:
+      simple_config_update:
+        cache.page.max_age: 3600
