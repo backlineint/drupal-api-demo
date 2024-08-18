@@ -1,0 +1,15 @@
+{
+  "name": "drupal/api_client_base",
+  "description": "Recipe for repeatable test setup for Drupal API client.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/simple_oauth": "^5"
+  }
+}

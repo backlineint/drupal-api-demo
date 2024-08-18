@@ -1,0 +1,15 @@
+{
+  "name": "drupal/api_client_graphql",
+  "description": "Recipe for repeatable test setup for Drupal GraphQL client.",
+  "type": "drupal-recipe",
+  "license": "GPL-2.0-or-later",
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/graphql_compose": "^2.2"
+  }
+}

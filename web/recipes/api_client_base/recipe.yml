@@ -1,11 +1,10 @@
-name: "API Client JSON:API"
-description: "Recipe for repeatable test setup for Drupal JSON:API client."
+name: "API Client Base"
+description: "Recipe for repeatable test setup for Drupal API client."
 type: "Site"
 
 install:
-  - jsonapi
-  - decoupled_router
-  - jsonapi_extras
+  - basic_auth
+  - simple_oauth
 # config:
 #   actions:
 #     # Set permissions for anonymous role.
