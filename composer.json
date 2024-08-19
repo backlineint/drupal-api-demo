@@ -40,7 +40,8 @@
     "drupal/jsonapi_extras": "^3.25",
     "drupal/simple_oauth": "^5",
     "drush/drush": "^13.0",
-    "ewcomposer/unpack": "dev-master"
+    "ewcomposer/unpack": "dev-master",
+    "platformsh/config-reader": "^2.4"
   },
   "conflict": {
     "drupal/drupal": "*"
