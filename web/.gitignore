@@ -23,6 +23,7 @@ sites/*/settings*.php
 !sites/default/settings.php
 !sites/default/settings.platformsh.php
 sites/*/services*.yml
+!sites/*/services.apidemo.yml
 
 # Ignore paths that contain user-generated content.
 sites/*/files

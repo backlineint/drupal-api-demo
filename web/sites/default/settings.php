@@ -716,6 +716,8 @@ $settings['update_free_access'] = FALSE;
  * Load services definition file.
  */
 $settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.yml';
+// Loosen CORS restrictions for demo purposes.
+$settings['container_yamls'][] = $app_root . '/' . $site_path . '/services.apidemo.yml';
 
 /**
  * Override the default service container class.
