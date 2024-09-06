@@ -6,6 +6,7 @@ install:
   - jsonapi
   - decoupled_router
   - jsonapi_extras
+  - jsonapi_views
 config:
   actions:
     jsonapi.settings:
